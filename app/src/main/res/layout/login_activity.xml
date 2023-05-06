@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/background1"
+    tools:context=".LoginActivity">
+
+    <ImageButton
+        android:id="@+id/logo"
+        android:layout_width="69dp"
+        android:layout_height="119dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/bachkhoa" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/rounded_login_background"
+        android:orientation="vertical"
+        android:id="@+id/loginFrame">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height= "wrap_content"
+            android:textSize="30sp"
+            android:text="Member Login"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/login_userName_edt"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:elevation="3dp"
+            android:drawableStart="@drawable/ic_baseline_account_circle_24"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Email"
+            android:drawablePadding="8dp"
+            android:textSize="20sp"
+            android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/login_password_edt"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Password"
+            android:elevation="3dp"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:textSize="20sp"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Login"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#57B847"
+            app:cornerRadius="25dp" />
+        <ProgressBar
+            android:id="@+id/login_progressBar"
+            android:visibility="gone"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:indeterminateTint="#57B847"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height= "wrap_content"
+            android:text="Forget Password"
+            android:id="@+id/login_forgetPassword_tv"
+            android:textSize="18sp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+            android:text="Create your Account"
+            android:onClick="startCreateAccount"
+            android:drawablePadding="8dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/background1"
+    tools:context=".LoginActivity">
+
+    <ImageButton
+        android:id="@+id/logo"
+        android:layout_width="69dp"
+        android:layout_height="119dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/bachkhoa" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/rounded_login_background"
+        android:orientation="vertical"
+        android:id="@+id/loginFrame">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height= "wrap_content"
+            android:textSize="30sp"
+            android:text="Create Account"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/create_email_edt"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:elevation="3dp"
+            android:drawableStart="@drawable/ic_baseline_account_circle_24"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Email"
+            android:drawablePadding="8dp"
+            android:textSize="20sp"
+            android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/create_password_edt"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:elevation="3dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:textSize="20sp"
+            android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/create_confirmPassword_edt"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:elevation="3dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:textSize="20sp"
+            android:minHeight="48dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/countryCode"
+                app:ccp_textSize="18sp"
+                app:ccp_showFlag="false"
+                android:elevation="4dp"
+                app:ccp_defaultNameCode="VN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/create_phoneNumber_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:elevation="3dp"
+                android:minHeight="55dp"
+                android:hint="Mobile Number"
+                android:layout_margin="10dp"
+                android:inputType="phone"
+                android:background="@drawable/rounded_edittext"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/create_button"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Create Account"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#57B847"
+            app:cornerRadius="25dp" />
+        <ProgressBar
+            android:id="@+id/create_progressBar"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_width="65dp"
+            android:visibility="gone"
+            android:layout_height="65dp"
+            android:indeterminateTint="#57B847"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+            android:text="Login"
+            android:textStyle="bold"
+            android:onClick="startLogin"
+            android:drawablePadding="8dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp" />
+    </LinearLayout>
+</RelativeLayout>

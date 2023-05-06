@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/title_sms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nhập mã OTP "
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/OtpCode_edt"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_sms"
+            android:layout_marginTop="20dp"
+            android:inputType="numberDecimal"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_edittext"
+            android:hint="-  -  -  -  -  - "
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/smsDialog_resend_otp"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/OtpCode_edt"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_centerHorizontal="true"
+            android:text="Gửi lại OTP sau 60s"/>
+        <Button
+            android:id="@+id/smsDialog_ok_btn"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Ok"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/smsDialog_resend_otp"
+            android:backgroundTint="#3DC826"
+            app:cornerRadius="15dp" />
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

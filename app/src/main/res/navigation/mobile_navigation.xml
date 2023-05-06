@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_tongQuan">
+
+    <fragment
+        android:id="@+id/nav_tongQuan"
+        android:name="com.vincent.hoangnguyen.project1.ui.TongQuan.TongQuanFragment"
+        android:label="Tổng quan"
+        tools:layout="@layout/fragment_tongquan" />
+
+    <fragment
+        android:id="@+id/nav_quanLyHangHoa"
+        android:name="com.vincent.hoangnguyen.project1.ui.QuanLyHangHoa.QuanLyHangHoaFragmment"
+        android:label="Quản lý hàng hóa"
+        tools:layout="@layout/fragment_quanlyhanghoa" />
+
+    <fragment
+        android:id="@+id/nav_banHang"
+        android:name="com.vincent.hoangnguyen.project1.ui.BanHang.BanHangFragment"
+        android:label="Bán Hàng"
+        tools:layout="@layout/fragment_banhang" />
+    <fragment
+        android:id="@+id/nav_nhapHang"
+        android:name="com.vincent.hoangnguyen.project1.ui.NhapHang.NhapHangFragment"
+        android:label="Nhập Hàng"
+        tools:layout="@layout/fragment_nhaphang" />
+    <fragment
+        android:id="@+id/nav_traHangNhanh"
+        android:name="com.vincent.hoangnguyen.project1.ui.BanHang.BanHangFragment"
+        android:label="Bán Hàng"
+        tools:layout="@layout/fragment_banhang" />
+    <fragment
+        android:id="@+id/nav_soQuy"
+        android:name="com.vincent.hoangnguyen.project1.ui.BanHang.BanHangFragment"
+        android:label="Bán Hàng"
+        tools:layout="@layout/fragment_banhang" />
+    <fragment
+        android:id="@+id/nav_quanLyDoiTac"
+        android:name="com.vincent.hoangnguyen.project1.ui.BanHang.BanHangFragment"
+        android:label="Bán Hàng"
+        tools:layout="@layout/fragment_banhang" />
+    <fragment
+        android:id="@+id/nav_quanLyNhanVien"
+        android:name="com.vincent.hoangnguyen.project1.ui.BanHang.BanHangFragment"
+        android:label="Bán Hàng"
+        tools:layout="@layout/fragment_banhang" />
+    <fragment
+        android:id="@+id/nav_quanLyDoanhNghiep"
+        android:name="com.vincent.hoangnguyen.project1.ui.BanHang.BanHangFragment"
+        android:label="Bán Hàng"
+        tools:layout="@layout/fragment_banhang" />
+    <fragment
+        android:id="@+id/nav_thongBao"
+        android:name="com.vincent.hoangnguyen.project1.ui.BanHang.BanHangFragment"
+        android:label="Bán Hàng"
+        tools:layout="@layout/fragment_banhang" />
+    <fragment
+        android:id="@+id/nav_quanLyFile"
+        android:name="com.vincent.hoangnguyen.project1.ui.BanHang.BanHangFragment"
+        android:label="Bán Hàng"
+        tools:layout="@layout/fragment_banhang" />
+    <fragment
+        android:id="@+id/nav_congNo"
+        android:name="com.vincent.hoangnguyen.project1.ui.BanHang.BanHangFragment"
+        android:label="Bán Hàng"
+        tools:layout="@layout/fragment_banhang" />
+    <fragment
+        android:id="@+id/nav_chatVideo"
+        android:name="com.vincent.hoangnguyen.project1.ui.BanHang.BanHangFragment"
+        android:label="Bán Hàng"
+        tools:layout="@layout/fragment_banhang" />
+    <fragment
+        android:id="@+id/nav_taiKhoan"
+        android:name="com.vincent.hoangnguyen.project1.ui.BanHang.BanHangFragment"
+        android:label="Bán Hàng"
+        tools:layout="@layout/fragment_banhang" />
+    <fragment
+        android:id="@+id/nav_huongDanSuDung"
+        android:name="com.vincent.hoangnguyen.project1.ui.BanHang.BanHangFragment"
+        android:label="Bán Hàng"
+        tools:layout="@layout/fragment_banhang" />
+</navigation>

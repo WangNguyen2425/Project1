@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "589928923108",
+    "project_id": "private-chat-904c7",
+    "storage_bucket": "private-chat-904c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589928923108:android:4889da83059accbd9c11f1",
+        "android_client_info": {
+          "package_name": "com.vincent.hoangnguyen.privatechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589928923108-k62sear9vmoleqb2ts21ds5ntha6o5v9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vincent.hoangnguyen.privatechat",
+            "certificate_hash": "1d9004bb45ad59a538f79cf355a87d22aa233909"
+          }
+        },
+        {
+          "client_id": "589928923108-6dlm5qhb2h6rm9lqatp2mc8cqvtdpbmi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxF1G1hN6GPfiYv5pgutpqjpWChmg_CpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589928923108-6dlm5qhb2h6rm9lqatp2mc8cqvtdpbmi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589928923108:android:7ea060f06b1c495f9c11f1",
+        "android_client_info": {
+          "package_name": "com.vincent.hoangnguyen.project1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589928923108-6dlm5qhb2h6rm9lqatp2mc8cqvtdpbmi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxF1G1hN6GPfiYv5pgutpqjpWChmg_CpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589928923108-6dlm5qhb2h6rm9lqatp2mc8cqvtdpbmi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

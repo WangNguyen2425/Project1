@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tongQuan"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Tổng quan" />
+        <item
+            android:id="@+id/nav_quanLyHangHoa"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Quản lý hàng hóa" />
+        <item
+            android:id="@+id/nav_banHang"
+            android:icon="@drawable/ic_baseline_sell_24"
+            android:title="Bán hàng" />
+        <item
+            android:id="@+id/nav_nhapHang"
+            android:icon="@drawable/ic_baseline_post_add_24"
+            android:title="Nhập hàng" />
+        <item
+            android:id="@+id/nav_traHangNhanh"
+            android:icon="@drawable/ic_baseline_autorenew_24"
+            android:title="Trả hàng nhanh" />
+        <item
+            android:id="@+id/nav_soQuy"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Sổ quỹ" />
+        <item
+            android:id="@+id/nav_quanLyDoiTac"
+            android:icon="@drawable/ic_baseline_social_distance_24"
+            android:title="Quản lý đối tác" />
+        <item
+            android:id="@+id/nav_quanLyNhanVien"
+            android:icon="@drawable/ic_baseline_people_24"
+            android:title="Quản lý nhân viên" />
+        <item
+            android:id="@+id/nav_quanLyDoanhNghiep"
+            android:icon="@drawable/ic_baseline_maps_home_work_24"
+            android:title="Quản lý doanh nghiệp" />
+        <item
+            android:id="@+id/nav_thongBao"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            android:title="Thông báo - Báo cáo" />
+        <item
+            android:id="@+id/nav_quanLyFile"
+            android:icon="@drawable/ic_baseline_insert_drive_file_24"
+            android:title="Quản lý file" />
+        <item
+            android:id="@+id/nav_congNo"
+            android:icon="@drawable/ic_baseline_monetization_on_24"
+            android:title="Công nợ" />
+        <item
+            android:id="@+id/nav_chatVideo"
+            android:icon="@drawable/ic_baseline_video_chat_24"
+            android:title="Chat - Video" />
+        <item
+            android:id="@+id/nav_taiKhoan"
+            android:icon="@drawable/ic_baseline_manage_accounts_24"
+            android:title="Tài khoản" />
+        <item
+            android:id="@+id/nav_huongDanSuDung"
+            android:icon="@drawable/ic_baseline_manual_late_24"
+            android:title="Hướng dẫn sử dụng" />
+
+    </group>
+</menu>
